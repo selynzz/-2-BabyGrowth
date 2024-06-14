@@ -1,0 +1,25 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F7F7F7"
+    android:orientation="vertical">
+
+<!--    &lt;!&ndash; Camera preview or captured image &ndash;&gt;-->
+<!--    <ImageView-->
+<!--        android:id="@+id/ivScan"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:scaleType="fitCenter"-->
+<!--        android:src="@drawable/ic_scan"/>-->
+
+    <!-- Loading indicator -->
+    <ProgressBar
+        android:id="@+id/progressBar"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:visibility="visible" />
+
+    <!-- Other UI elements as needed -->
+
+</LinearLayout>
